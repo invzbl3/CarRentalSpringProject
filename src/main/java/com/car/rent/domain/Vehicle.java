@@ -5,7 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-
 import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
@@ -96,5 +95,4 @@ public class Vehicle {
 				+ vehiclePlateNumber + ", model=" + model + ", numberOfSeats=" + numberOfSeats + ", dailyPrice="
 				+ dailyPrice + ", isAvailable=" + isAvailable + "]";
 	}
-
 }

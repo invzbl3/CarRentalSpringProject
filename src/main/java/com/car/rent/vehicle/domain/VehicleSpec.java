@@ -24,6 +24,4 @@ public class VehicleSpec {
 	public void setMaxPrice(Double maxPrice) {
 		this.maxPrice = maxPrice;
 	}
-
-
 }

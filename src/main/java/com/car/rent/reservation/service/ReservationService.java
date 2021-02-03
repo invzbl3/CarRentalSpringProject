@@ -1,7 +1,6 @@
 package com.car.rent.reservation.service;
 
 import java.util.List;
-
 import com.car.rent.domain.Reservation;
 
 public interface ReservationService {

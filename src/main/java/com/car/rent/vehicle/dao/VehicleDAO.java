@@ -1,11 +1,9 @@
 package com.car.rent.vehicle.dao;
 
 import java.util.List;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
-
 import com.car.rent.domain.Vehicle;
 
 public interface VehicleDAO extends JpaRepository<Vehicle, Integer> {

@@ -1,10 +1,8 @@
 package com.car.rent.vehicle.controller;
 
 import java.util.List;
-
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +14,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import com.car.rent.domain.Person;
 import com.car.rent.domain.Vehicle;
 import com.car.rent.vehicle.domain.VehicleSpec;
@@ -144,5 +141,4 @@ public class VehicleController {
 
 	@Autowired
 	private VehicleService vehicleService;
-
 }

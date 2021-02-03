@@ -85,5 +85,4 @@ public class Reservation {
 				+ ",Person:" + this.getPerson() + ",Vehicle" + this.getVehicle() + "}";
 		return str;
 	}
-
 }

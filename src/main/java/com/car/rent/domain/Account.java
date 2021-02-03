@@ -75,7 +75,4 @@ public class Account {
 	public void setPersonOwner(Person personOwner) {
 		this.personOwner = personOwner;
 	}
-
-	 
-
 }
